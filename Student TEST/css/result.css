@@ -1,0 +1,94 @@
+#result{
+    position: relative;
+    background-color: white;
+    text-align:center;
+    border : 2px solid;
+    z-index: 0;
+}
+#result > span {
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 30px;
+}
+
+#result > div{
+    padding: 20px 0 20px 0;
+}
+
+.result-letter{
+    display:block;
+    background-color: #D3DAFF;
+    border-radius: 30px; 
+    font-size: 18px;
+    border: 2px solid;
+}
+
+.sticker{
+    background-color:#D3DAFF;
+    width: 30px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    border : 2px solid;
+    transform: rotate( 45deg )
+}
+
+
+body > div{
+    text-align: center;
+}
+
+#result-info > span{
+    font-size: 30px;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+#result-info > p{
+    display:block;
+    font-size: 20px;
+    word-break:keep-all;
+}
+
+#kakaotalk-sharing-btn{
+    cursor:pointer;
+}
+
+@media (min-width: 300px) {
+    #result{
+        width: 90vw;
+    }
+    .result-letter{
+        width: 50vw;
+    }
+    #result-info > p{
+        width: 70vw;
+    }
+}
+
+@media (min-width: 768px) {
+    #result{
+        width: 70vw;
+    }
+    .result-letter{
+        width: 70vw;
+    }
+    #result-info > p{
+        width: 70vw;
+    }
+}
+
+@media (min-width : 1024px) {
+    #result{
+        width: 45vw;
+    }
+    .result-letter{
+        width: 15vw;
+    }
+    #result-info > p{
+        width: 45vw;
+    }
+}
+

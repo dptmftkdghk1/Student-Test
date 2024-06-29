@@ -1,0 +1,87 @@
+#qna{
+    position: relative;
+    background-color: white;
+    /*width: 50vw;*/
+    text-align:center;
+    border : 2px solid;
+    z-index: 0;
+}
+#qna > span {
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 30px;
+}
+
+.sticker{
+    background-color:#D3DAFF;
+    width: 30px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    border : 2px solid;
+    transform: rotate( 45deg )
+}
+
+
+body > div{
+    text-align: center;
+}
+
+.answer-list{
+    background-color: white;
+    display: block;
+    border: 2px solid;
+    font-size: 20px;
+}
+
+.answer-list:hover{
+    background: #D3DAFF; 
+    transition: 0.2s;
+}
+
+.status-bar{
+    height: 20px;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid;
+}
+
+.status-bar-width{
+    height: 100%;
+    width: 10%;
+    border-radius: 20px;
+    background-color: #D3DAFF; 
+
+}
+
+@media (min-width: 300px) {
+    #qna{
+        width: 90vw;
+    }
+    .answer-list{
+        width: 90vw;
+    }
+}
+
+@media (min-width: 768px) {
+    #qna{
+        width: 70vw;
+    }
+    .answer-list{
+        width: 70vw;
+    }
+}
+
+@media (min-width : 1024px) {
+    #qna{
+        width: 50vw;
+    }
+    .answer-list{
+        width: 50vw;
+    }
+}
+
+
